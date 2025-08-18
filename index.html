@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of Dom</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+        <h1>This is my header no banner</h1>
+    </header>
+    <main>
+        <h1>Welcome to My Dom</h1>
+        <ul>
+            <li>Shafayet</li>
+            <li>Bonobash</li>
+            <li>Jalali set</li>
+            <li>pattha ghor</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ipsam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, tenetur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, a!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, suscipit!</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officiis.
+    </main>
+  <script>
+    // console.log('hello javascript')
+    // console.log('hello chula galo')
+     const student = {
+        name:'min',
+        id:121,
+        study:function(subject){
+            console.log('stuying subject',subject)
+        }
+
+    }
+    const licollection=document.getElementsByTagName('li');
+    console.log(licollection);
+    for(const li of licollection){
+        console.log(li.innerText);
+    }
+    const pcollection=document.getElementsByTagName('p');
+    for(const p of pcollection ){
+        console.log(p.innerText);
+    }
+
     
+
+
+  </script>  
+  <script src="./hello.js"></script>
 </body>
 </html>
