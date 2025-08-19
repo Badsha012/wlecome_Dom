@@ -11,11 +11,17 @@
         <h1>This is my header no banner</h1>
     </header>
     <main>
-        <section class="song"><h1>Welcome to My Dom</h1>
+        <section id="old-dhaka" class="song">
+            <h1>Welcome to My Dom</h1>
+            <p>
+                Lorem ipsum dolor<span>oli goli</span> sit amet consectetur adipisicing elit. Velit, omnis!
+            </p>
+            <h1>hdkhkjihhd<span>some text</span></h1>
         <ul>
             <li>Shafayet</li>
             <li class="brand">Bonobash</li>
-            <li class="brand">Jalali set</li>
+            <li class="brand">Jalali set</li>>
+            <li class="international">Dubai</li>
             <li class="brand">pattha ghor</li>
         </ul>
     </section>
@@ -64,6 +70,12 @@
     }
 
     
+// query selector all
+const spanEle=document.querySelectorAll('#old-dhaka p span');
+for(const element of spanEle){
+    console.log(element.innerText);
+}
+
 
 
   </script>  

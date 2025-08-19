@@ -6,8 +6,15 @@ li{
 }
 #food_title{
     color:black;
+    /* background-color: lawngreen; */
 }
 .food .brand{
     font-weight: 700;
     color: red;
+}
+.bg-red{
+    background-color: aqua;
+}
+.bold{
+    font-weight: 900;
 }
