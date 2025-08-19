@@ -4,3 +4,10 @@ h1{
 li{
     color: blue;
 }
+#food_title{
+    color:black;
+}
+.food .brand{
+    font-weight: 700;
+    color: red;
+}

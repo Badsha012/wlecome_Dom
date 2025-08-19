@@ -11,13 +11,26 @@
         <h1>This is my header no banner</h1>
     </header>
     <main>
-        <h1>Welcome to My Dom</h1>
+        <section class="song"><h1>Welcome to My Dom</h1>
         <ul>
             <li>Shafayet</li>
-            <li>Bonobash</li>
-            <li>Jalali set</li>
-            <li>pattha ghor</li>
+            <li class="brand">Bonobash</li>
+            <li class="brand">Jalali set</li>
+            <li class="brand">pattha ghor</li>
         </ul>
+    </section>
+    <section class="food">
+        <h1 id="food_title">I love my food</h1>
+        <ul>
+            <li>Rice</li>
+            <li class="brand">Egg</li>
+            <li>Milk</li>
+            <li class="brand">Vegatable</li>
+            <li>Fish</li>
+            <li>meat</li>
+            <li>potato</li>
+        </ul>
+    </section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ipsam.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, tenetur?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, a!</p>
@@ -43,6 +56,11 @@
     const pcollection=document.getElementsByTagName('p');
     for(const p of pcollection ){
         console.log(p.innerText);
+    }
+    const barndname=document.getElementsByClassName('brand');
+    console.log(barndname);
+    for(const ele of barndname){
+        console.log(ele.innerText);
     }
 
     
